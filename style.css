@@ -1,0 +1,132 @@
+body, html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.grey{
+  color: rgb(255, 255, 255);
+}
+/* start home styling */
+.home {
+  height: 100vh;
+  text-align: center;
+  padding: auto;
+  background-image: url(header.jpg);
+  background-size: cover;
+}
+.home h1,.homep{
+  padding-top: 30vh;
+}
+.home h1 {
+  margin-top: 0em;
+  margin-bottom:0em;
+  font-size: 7em;
+}
+.home .homep{
+  padding-top:0;
+  font-size: 2em;
+}
+/* end home styling */
+/* SKILLS */
+.skills{
+  padding: 70px;
+  background-color: #d3e0ea;
+}
+.skills >h1{
+  font-size: 4em;
+}
+.skills >div {
+  padding-left: 20px;
+  text-align: center;
+}
+
+.skills div >p{
+  font-size: 1.9em;
+  padding-top: 5px;
+}
+.skills div >i {
+  padding: 5px;
+}
+/* END */
+/* principles  */
+.grid-container{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 40px;
+  grid-gap: 10px
+}
+
+.left-item{
+  grid-row: 1/4;
+  /* text-align: center; */
+  margin: 20% auto;
+  
+
+}
+
+.left-item >h2{
+  text-align: center;
+  font-size: 4em;
+}
+
+.left-item >p{
+  text-align: center;
+  margin-top: 5%;
+  font-size: 1.7em;
+}
+.paragraph1{
+  text-align: center;
+}
+.paragraph1 >h3{
+  font-size: 2em;
+}
+
+.paragraph1 >p{
+  margin-top: 3%;
+  font-size: 1.2em;
+}
+
+.paragraph2{
+  text-align: center;
+}
+.paragraph2 >h3{
+  font-size: 2em;
+}
+.paragraph2 >p{
+  font-size: 1.2em;
+  margin-top: 3%;
+}
+
+.paragraph3{
+  text-align: center;
+}
+
+.paragraph3 >h3{
+  font-size: 2em;
+}
+.paragraph3 >p{
+  font-size: 1.2em;
+  margin-top: 3%;
+}
+/* END */
+/* ContactMe */
+.contact{
+  text-align: center;
+  background-color: #385785;
+}
+.contact >h2 {
+  font-size: 5em
+}
+
+.contact >p{
+  font-size: 2em;
+}
+
+.contact >img{
+  width: 120px;
+  height: 110px;
+  padding:10px 20px;
+}
+
